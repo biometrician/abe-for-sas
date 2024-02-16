@@ -1,13 +1,13 @@
 # abe_for_sas
 
-SAS-Macros Implementing Augmented Backward Elimination: A Pragmatic and Purposeful Way to Develop Statistical Models
+**SAS-Macros Implementing Augmented Backward Elimination: A Pragmatic and Purposeful Way to Develop Statistical Models**
 
 ## Description
 
 Here we provide our SAS-macros to apply augmented backward elimination in linear, logistic or Cox-proportional hazards regression models.
 
-- The macro `%abe` implements the augmented backward elimination algorithm. 
-- The macro `%abe_bootstrap` implements abe analysis for bootstrap samples.
+- **ABE.SAS:** The macro `%abe` implements the augmented backward elimination algorithm. 
+- **ABE_BOOTSTRAP.SAS:** The macro `%abe_bootstrap` implements abe analysis for bootstrap samples.
 
 If you use the macro in a scientific report, please cite our corresponding paper (Dunkler, Plischke, Leffondre and Heinze, 2014). 
 In the supplementary information of the paper, the user will find a technical report with a detailed explanation of the parameters of the SAS macros and a worked example (code and data).
